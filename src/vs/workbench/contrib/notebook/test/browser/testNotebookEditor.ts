@@ -61,7 +61,7 @@ import { IWorkingCopySaveEvent } from 'vs/workbench/services/workingCopy/common/
 import { TestWorkspaceTrustRequestService } from 'vs/workbench/services/workspaces/test/common/testWorkspaceTrustService';
 import { TestLayoutService } from 'vs/workbench/test/browser/workbenchTestServices';
 import { TestStorageService } from 'vs/workbench/test/common/workbenchTestServices';
-import { INotebookOutlineEntryCacheService, NotebookOutlineEntryCacheService } from 'vs/workbench/contrib/notebook/browser/viewModel/notebookOutlineEntryFactory';
+import { INotebookOutlineEntryCacheService, NotebookOutlineEntryCacheService } from 'vs/workbench/contrib/notebook/browser/viewModel/NotebookOutlineEntryCacheService';
 
 export class TestCell extends NotebookCellTextModel {
 	constructor(
